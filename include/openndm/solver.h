@@ -1,8 +1,7 @@
 //! \file solver.h
 //! Outer eigenvalue iteration and the top level solve entry points.
 
-#ifndef OPENNDM_SOLVER_H
-#define OPENNDM_SOLVER_H
+#pragma once
 
 #include <memory>
 #include <string>
@@ -214,6 +213,4 @@ private:
   std::vector<double> derivative_;
 };
 
-}  // namespace openndm
-
-#endif  // OPENNDM_SOLVER_H
+}
